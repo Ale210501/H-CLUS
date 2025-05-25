@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.progetto.extension.extension.ControllerIO">
+   <children>
+      <TextField fx:id="depth" layoutX="117.0" layoutY="163.0" prefHeight="25.0" prefWidth="157.0" promptText="Profondità dendrogramma" />
+      <Button fx:id="singleDistance" layoutX="80.0" layoutY="248.0" mnemonicParsing="false" onAction="#learningFromDbTableSD" text="Single-Link" />
+      <Label layoutX="132.0" layoutY="132.0" text="Profondità dendrogramma">
+         <font>
+            <Font name="Dubai Light" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="home" fitHeight="60.0" fitWidth="40.0" layoutX="14.0" layoutY="296.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../extension/homepage.png" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Label layoutX="90.0" layoutY="73.0" text="Inserisci la profondità del dendrogramma">
+         <font>
+            <Font name="Dubai Light" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="averageDistance" layoutX="231.0" layoutY="248.0" mnemonicParsing="false" onAction="#learningFromDbTableAD" text="Average-Link" />
+      <Label layoutX="119.0" layoutY="212.0" text="Scegli la distanza da utilizzare">
+         <font>
+            <Font name="Dubai Light" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

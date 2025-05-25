@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.progetto.extension.extension.ControllerMenu">
+   <children>
+      <Button layoutX="150.0" layoutY="125.0" mnemonicParsing="false" onAction="#learningFromFile" prefHeight="50.0" prefWidth="100.0" text="Lettura" />
+      <Button layoutX="150.0" layoutY="200.0" mnemonicParsing="false" onAction="#learningFromDb" prefHeight="50.0" prefWidth="100.0" text="Scoperta" />
+      <Label layoutX="148.0" layoutY="50.0" text="Scegli una opzione">
+         <font>
+            <Font name="Dubai Light" size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

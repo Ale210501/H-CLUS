@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.progetto.extension.extension.ControllerConnection">
+   <children>
+      <Label alignment="CENTER" layoutX="90.0" layoutY="24.0" prefHeight="54.0" prefWidth="220.0" text="Benvenuto in H-Clus" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="78.0" text="Inserisci i parametri per la connessione al Server">
+         <font>
+            <Font name="Dubai Light" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ipAddressFXML" layoutX="125.0" layoutY="150.0" promptText="Indirizzo IP" />
+      <TextField fx:id="numberOfPortFXML" layoutX="125.0" layoutY="210.0" promptText="Numero di porta" />
+      <Button layoutX="168.0" layoutY="270.0" mnemonicParsing="false" onAction="#Connetti" text="Connetti" />
+      <Label layoutX="125.0" layoutY="128.0" text="IP Address">
+         <font>
+            <Font name="Dubai Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="188.0" text="Port Number">
+         <font>
+            <Font name="Dubai Light" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

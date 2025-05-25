@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClientH-CLUS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientH_CLUS_jar</output-path>
+    <root id="archive" name="ClientH-CLUS.jar">
+      <element id="module-output" name="ClientH-CLUS" />
+    </root>
+  </artifact>
+</component>

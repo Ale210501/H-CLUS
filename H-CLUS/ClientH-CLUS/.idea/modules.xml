@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClientH-CLUS.iml" filepath="$PROJECT_DIR$/ClientH-CLUS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ServerH-CLUS/ServerH-CLUS.iml" filepath="$PROJECT_DIR$/../ServerH-CLUS/ServerH-CLUS.iml" />
+    </modules>
+  </component>
+</project>
